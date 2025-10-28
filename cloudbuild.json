@@ -9,6 +9,6 @@
     }
     ],
     "options": {
-        "logStreamingOption": "GCS_ONLY"
+        "logStreamingOption": "STREAM_ON"
     }
 }
