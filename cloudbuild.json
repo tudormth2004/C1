@@ -3,8 +3,7 @@
     {
         "name": "gcr.io/cloud-builders/gcloud",
         "args": [
-            "components",
-            "install"
+            "build"
         ]
     }
     ],
