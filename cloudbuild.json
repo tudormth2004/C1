@@ -1,0 +1,13 @@
+{
+    "steps": [
+    {
+        "name": "gcr.io/cloud-builders/go",
+        "args": [
+            "install",
+            "."
+        ]
+    }
+    ],
+    "options": {
+        "logStreamingOption": "GCS_ONLY"
+    }
