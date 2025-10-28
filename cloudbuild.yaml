@@ -1,12 +1,17 @@
-steps:
-   name: 'gcr.io/cloud-builders/gcloud'
-   args: ['build', '-t', 'gcr.io/android-channels-df1cf/myimage', '.']
-   env:
-   - 'CLOUDSDK_COMPUTE_REGION=europe-west3'
-
-   - 'CLOUDSDK_COMPUTE_ZONE=europe-west3-c'
-
-options:
-   defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
+{
+    "steps": [
+    {
+        "name": "gcr.io/cloud-builders/go",
+        "args": [
+            "install",
+            "."
+        ]
+    }
+    ],
+    "options": {
+        "logStreamingOption": "GCS_ONLY"
+    }
+}
    
+
 
