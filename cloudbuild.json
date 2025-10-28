@@ -9,6 +9,7 @@
     }
     ],
     "options": {
-        "logStreamingOption": "STREAM_ON"
+        "logStreamingOption": "STREAM_ON" ,
+        "defaultLogsBucketBehavior": "REGIONAL_USER_OWNED_BUCKET"
     }
 }
